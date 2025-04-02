@@ -36,10 +36,10 @@ Forecasts layoffs by:
 pip install -r requirements.txt
 ```
 
-2. **Run the forecast:
+2. **Run the forecast**:
 
 ```bash
 python scripts/forecast_layoffs.py
 ```
 
-3. **Check the outputs/prediction_plots/ directory for the generated plots.
+3. **Check the outputs/prediction_plots/ directory for the generated plots**.
