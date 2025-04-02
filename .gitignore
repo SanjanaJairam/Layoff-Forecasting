@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# macOS Finder metadata
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output folders
+outputs/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Excel backups
+*.xlsx~
+
+# VSCode settings (optional)
+.vscode/
