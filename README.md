@@ -1,31 +1,45 @@
-# Layoff Forecasting Using Facebook Prophet
+# 📉 BLS Layoff Forecasting (T3 & T7)
 
-This project forecasts employee layoffs using time series modeling with Facebook Prophet for each unique employment characteristic in the dataset.
+This project uses data from the **Bureau of Labor Statistics (BLS)** to forecast layoffs using time series modeling with Facebook Prophet. It includes two components:
 
-## Features
+- **T3**: Forecasting by demographic groups (e.g. age, gender, race/ethnicity)
+- **T7**: Forecasting by industry and occupational categories
 
-- Loads and processes Excel data from the BLS
-- Forecasts layoffs using Facebook Prophet
-- Evaluates models using RMSE
-- Saves forecast plots for each characteristic
+---
 
-## Getting Started
+## 📊 Data Sources
 
-### Prerequisites
+### 🔹 BLS Table 3 (T3) – Demographic Forecasting
+Forecasts layoffs by:
+- Gender
+- Race and Ethnicity
+- Age Group
 
-- Python 3.8+
-- See `requirements.txt` for dependencies
+**File**: `bls-T3.xlsx`
 
-### Installation
+---
+
+### 🔸 BLS Table 7 (T7) – Industry & Occupation Forecasting
+Forecasts layoffs by:
+- Occupational Categories (e.g. Healthcare, Manufacturing)
+- Industry Sectors (e.g. Government, Durable Goods)
+
+**File**: `bls-T7.xlsx`
+
+---
+
+## ⚙️ How to Run
+
+1. **Install dependencies**:
 
 ```bash
-git clone https://github.com/yourusername/layoff-forecasting-prophet.git
-cd layoff-forecasting-prophet
 pip install -r requirements.txt
 ```
 
-### Run the Forecast
+2. **Run the forecast:
 
 ```bash
 python scripts/forecast_layoffs.py
 ```
+
+3. **Check the outputs/prediction_plots/ directory for the generated plots.
