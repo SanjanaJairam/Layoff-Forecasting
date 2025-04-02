@@ -23,14 +23,7 @@ git clone https://github.com/yourusername/layoff-forecasting-prophet.git
 cd layoff-forecasting-prophet
 pip install -r requirements.txt
 
-Run the Forecast
-python scripts/forecast_layoffs.py
-Project Structure
+### Run the Forecast
 
-scripts/
-    forecast_layoffs.py
-data/
-    bls-T7.xlsx
-outputs/
-    prediction_plots/
-Lic
+```bash
+python scripts/forecast_layoffs.py
