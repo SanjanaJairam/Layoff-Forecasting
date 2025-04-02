@@ -22,8 +22,10 @@ This project forecasts employee layoffs using time series modeling with Facebook
 git clone https://github.com/yourusername/layoff-forecasting-prophet.git
 cd layoff-forecasting-prophet
 pip install -r requirements.txt
+```
 
 ### Run the Forecast
 
 ```bash
 python scripts/forecast_layoffs.py
+```
